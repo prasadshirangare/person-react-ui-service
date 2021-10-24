@@ -34,13 +34,15 @@ const ShowPerson = () => {
     }
 
     return (
-        <div className="ag-theme-alpine" style={{ height: 800 }}>
+        <div className="ag-theme-alpine" style={{ height: '500px' }}>
             <AgGridReact
                 rowData={personData}
                 defaultColDef={{ flex: 1 }}
                 rowHeight={60}
                 columnDefs={columnDefs}
                 onGridReady={onGridReady}
+                pagination={true}
+                paginationAutoPageSize={true}
             />
         </div>
     );
