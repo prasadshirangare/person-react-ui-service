@@ -1,0 +1,19 @@
+.App {
+  text-align: center;
+}
+
+.ag-row .ag-cell {
+  display: flex;
+  justify-content: left;
+  align-items: left;
+}
+
+button {
+  background-color:blue;
+  color: yellow;
+  font-size: 20px;
+  padding: 10px 60px;
+  border-radius: 5px;
+  margin: 10px 0px;
+  cursor: pointer;
+}
